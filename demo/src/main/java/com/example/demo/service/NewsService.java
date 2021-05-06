@@ -21,7 +21,7 @@ public class NewsService {
 	private static List<News> newsList = new ArrayList<>();
 	
 	static {
-//	loading rss
+       //loading rss
 		URL feedSource;
 		try {
 			feedSource = new URL("http://news.google.com/news?pz=1&amp;cf=all&amp;ned=en_il&amp;hl=en&amp;output=rss");
